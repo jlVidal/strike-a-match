@@ -26,4 +26,4 @@ console.log(result); // 0.8
 
 ## Other
 
-Although this library was ported by [John Vidal](https://twitter.com/johnLvidal) to javascript, the algorithm is describe with details here: http://www.catalysoft.com/articles/StrikeAMatch.html
+This library was just ported by [John Vidal](https://twitter.com/johnLvidal) to javascript, the algorithm is describe with details here: http://www.catalysoft.com/articles/StrikeAMatch.html
