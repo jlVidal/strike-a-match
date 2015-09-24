@@ -1,14 +1,15 @@
 {
   "name": "strike-a-match",
-  "version": "1.0.0",
+  "version" : "0.0.0-semantically-released",
   "description": "A very clever algorithm that compares adjacent character pairs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./index.test.js -w"
+    "test": "mocha ./index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlVidal/strike-a-match.git"
+    "url": "https://github.com/jlVidal/strike-a-match.git"
   },
   "keywords": [
     "string",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/jlVidal/strike-a-match#readme",
   "devDependencies": {
     "chai": "^3.3.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "semantic-release": "^4.3.5"
   }
 }
