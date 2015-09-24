@@ -35,7 +35,7 @@ function wordLetterPairs(str) {
 }
 var toExport =
 {
-    compareStrings: (a, b) => {
+    compareStrings: function (a, b) {
         if (!a || !b) {
             if (!a && !b)
                 return 1;
