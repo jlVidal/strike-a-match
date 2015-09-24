@@ -4,7 +4,7 @@
   "description": "A very clever algorithm that compares adjacent character pairs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/jlVidal/strike-a-match/issues"
   },
-  "homepage": "https://github.com/jlVidal/strike-a-match#readme"
+  "homepage": "https://github.com/jlVidal/strike-a-match#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
 }

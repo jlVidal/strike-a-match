@@ -20,7 +20,6 @@ function wordLetterPairs(str) {
     // Tokenize the string and put the tokens/words into an array
     var words = str.split(/(\s)/);
 
-    console.log(words);
     // For each word
     for (var w = 0; w < words.length; w++) {
         if (!isBlank(words[w])) {
@@ -54,9 +53,7 @@ var toExport =
         }
 
         var pairs1 = wordLetterPairs(a);
-        console.log(pairs1);
         var pairs2 = wordLetterPairs(b);
-        console.log(pairs2)
 
         if (pairs1.length == 0 || pairs2.length == 0) {
             a = a.trim();
