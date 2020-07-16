@@ -1,6 +1,6 @@
 {
   "name": "strike-a-match",
-  "version" : "0.0.0-semantically-released",
+  "version" : "1.2.0",
   "description": "A very clever algorithm that compares adjacent character pairs",
   "main": "index.js",
   "scripts": {
