@@ -3,8 +3,8 @@ module.exports = {
 };
 
 function compareStrings(a, b) {
-    a = a.trim().toUpperCase();
-    b = b.trim().toUpperCase();
+    a = a.trim().toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    b = b.trim().toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
     // shortcut out of some situations...
     // identical strings
